@@ -1,4 +1,4 @@
-package github.com/scientistnik/currency.com
+package currencycom
 
 import (
 	"crypto/hmac"

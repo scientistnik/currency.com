@@ -1,4 +1,4 @@
-package github.com/scientistnik/currency.com
+package currencycom
 
 type RejectReasonEnum string
 
