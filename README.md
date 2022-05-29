@@ -47,3 +47,9 @@ body, err := api.ListOfHistoricalPositions(&currencycom.PositionHistoryRequest{}
 body, err := api.ListOfTransactions(&currencycom.TransactionsRequest{})
 body, err := api.ListOfWithdrawals(&currencycom.TransactionsRequest{})
 ```
+
+## Contributing
+Bug reports and pull requests are welcome on GitHub.
+
+## License
+[MIT license](https://github.com/scientistnik/currency.com/blob/main/LICENSE)
