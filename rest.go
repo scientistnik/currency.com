@@ -360,7 +360,7 @@ func (r RestAPI) ListOfCurrencies(params *SignedRequest) ([]CurrencyDtoResponse,
 	return out, err
 }
 
-func (r RestAPI) TringOfAddress(params *BlockchainAddressRequest) (*BlockchainAddressGetResponse, error) {
+func (r RestAPI) StringOfAddress(params *BlockchainAddressRequest) (*BlockchainAddressGetResponse, error) {
 	if params == nil || params.Coin == "" {
 		return nil, fmt.Errorf("error params: Coin need to set")
 	}

@@ -448,7 +448,7 @@ type QueryOrderResponse struct {
 	AccountId          string  `json:"accountId"`
 	ExecutedQty        string  `json:"executedQty"`
 	ExpireTimestamp    int64   `json:"expireTimestamp"`
-	QuaranteedStopLoss bool    `json:"guaranteedStopLoss"`
+	GuaranteedStopLoss bool    `json:"guaranteedStopLoss"`
 	IcebergQty         string  `json:"icebergQty"`
 	Leverage           bool    `json:"leverage"`
 	Margin             float64 `json:"margin"`
